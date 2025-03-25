@@ -1,4 +1,71 @@
 body {
-    background-color: #131111;
-
+    background-color: black;
 }
+
+    header {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+        background-color: aqua;
+    }
+
+    header a {
+        padding: 3%;
+    }
+
+   h1 {
+    font-size: 50pt;
+    text-align: center;
+    text-decoration: underline;
+    background-color: aliceblue;
+   }
+
+   h2 {
+    font-size: 20pt;
+    padding: 25px;
+   }
+
+
+   .friendslist {
+    background-color: white;
+   }
+
+   h3 {
+    padding: 15px;
+    text-align: justify;
+    text-decoration: wavy;
+    input {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+ }
+
+   h4 {
+    font-size: 12pt;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+    background-color: black;
+
+    }
+
+    form {
+        width: 50%;;
+        margin: auto; 
+        text-align: center;
+    }
+  
+    
+    #beyonce {
+        width: 20%; 
+        padding: 3%; 
+        height: 100%;
+    }
+
+    #profiles {
+        margin: auto; 
+        text-align: center;
+    }
