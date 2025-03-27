@@ -7,8 +7,20 @@ body {
  
 }
 
+
+video {
+    display: block; /* Ensure it's displayed as a block-level element */
+    width: 100%;    /* Scale video to fit within the container */
+    height: auto;   /* Maintain aspect ratio */
+}
+
+
     .video-container {
         text-align: center;
+        display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
     }
 
     header {
