@@ -1,13 +1,23 @@
 body {
-    background-color: black;
+    background-color: #ff6666;
+    color: lavender;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+ 
 }
+
+    .video-container {
+        text-align: center;
+    }
 
     header {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         width: 100%;
         margin-top: 50px;
         text-align: center;
-        background-color: aqua;
+        background-color: red;
+        padding: 20px;
     }
 
     header a {
@@ -18,7 +28,7 @@ body {
     font-size: 50pt;
     text-align: center;
     text-decoration: underline;
-    background-color: aliceblue;
+   
    }
 
    h2 {
@@ -28,7 +38,13 @@ body {
 
 
    .friendslist {
-    background-color: white;
+    background-color: #ff6666;
+    color: purple;
+   }
+
+   .divaquiz {
+   
+    color: purple;
    }
 
    h3 {
@@ -63,9 +79,21 @@ body {
         width: 20%; 
         padding: 3%; 
         height: 100%;
+        position: auto;
+
+        
     }
 
-    #profiles {
+#profile {
         margin: auto; 
         text-align: center;
     }
+
+.profile {
+    background-image: url('../img/BeyonceQueen.jpg');
+    background-repeat: repeat;
+    background-size: 25%;
+
+}
+  
+   
