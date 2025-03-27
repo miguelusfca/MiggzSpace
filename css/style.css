@@ -9,7 +9,7 @@ body {
 
 
 video {
-    display: block; /* Ensure it's displayed as a block-level element */
+    display: block;
     width: 100%;    /* Scale video to fit within the container */
     height: auto;   /* Maintain aspect ratio */
 }
@@ -18,7 +18,7 @@ video {
     .video-container {
         text-align: center;
         display: block;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     margin: 0 auto;
     }
